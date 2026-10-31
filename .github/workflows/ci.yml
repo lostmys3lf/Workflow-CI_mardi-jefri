@@ -32,6 +32,12 @@ jobs:
         with:
           python-version: "3.12.7"
 
+      - name: Check Env
+        run: |
+          python --version                            # Versi Python di runner
+          pip --version                               # Versi pip yang dipakai untuk install library
+          nvidia-smi                                  # Info GPU dan driver di VM runner
+
       - name: Install library
         run: pip install mlflow==2.19.0 tensorflow[and-cuda]==2.19.1 pandas==2.2.3 numpy==2.1.3 scikit-learn==1.6.1 joblib==1.6.0   # Sama dengan conda.yaml
 
