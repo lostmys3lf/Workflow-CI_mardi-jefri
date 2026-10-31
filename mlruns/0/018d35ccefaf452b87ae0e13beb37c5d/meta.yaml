@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mardijefriprofesional/actions-runner/_work/Workflow-CI_mardi-jefri/Workflow-CI_mardi-jefri/mlruns/0/018d35ccefaf452b87ae0e13beb37c5d/artifacts
+end_time: 1793442789287
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 018d35ccefaf452b87ae0e13beb37c5d
+run_name: classy-roo-707
+run_uuid: 018d35ccefaf452b87ae0e13beb37c5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1793442645929
+status: 3
+tags: []
+user_id: mardijefriprofesional
